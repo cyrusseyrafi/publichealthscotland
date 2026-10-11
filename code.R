@@ -32,7 +32,8 @@ library(rlang)
 # Initialize path to historical population CSV. 
 # Note: This is the only dataset I couldn't get to work using the API, so the URL
 # will need to be changed for any future users.
-datazone_path <- "/Users/cyrusseyrafi/Desktop/Public Health Scotland/c505f490-c201-44bd-abd1-1bd7a64285ee.csv"
+# datazone_path <- "/Users/cyrusseyrafi/Desktop/Public Health Scotland/c505f490-c201-44bd-abd1-1bd7a64285ee.csv"
+datazone_path <- getwd()
 
 # Initialize 'General Practitioner Contact Details' API IDs by quarter.
 gp_contacts_ids <- c(
